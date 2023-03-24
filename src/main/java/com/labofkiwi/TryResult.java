@@ -5,7 +5,7 @@ package com.labofkiwi;
  *
  * @param <T> The value's type.
  */
-public final class TryResult<T> implements ReadOnlyRef<T> {
+public final class TryResult<T> implements IReadOnlyRef<T> {
     @SuppressWarnings({ "rawtypes", "unchecked" })
     private static final TryResult FAILURE = new TryResult(false, null);
 

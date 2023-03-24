@@ -5,7 +5,7 @@ package com.labofkiwi;
  *
  * @param <T> The value's type.
  */
-public interface Ref<T> extends ReadOnlyRef<T> {
+public interface IRef<T> extends IReadOnlyRef<T> {
     /**
      * Sets the value of this instance.
      *
